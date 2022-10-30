@@ -108,7 +108,12 @@ source $ZSH/oh-my-zsh.sh
 alias nv="nvim"
 alias search="history | grep"
 export PATH=$PATH:/Users/jorgerodriguezsanchez/.npm-global/bin
+alias ide='bash ide'
 alias tm="tmux"
-
+alias tma="tmux attach -t"
+alias tmd="tmux detach"
+alias tmn="tmux new-session -s"
+alias tmad="tmux attach -t dev"
+alias tmnd="tmux new-session -s dev"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
