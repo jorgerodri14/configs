@@ -108,6 +108,7 @@ local config = {
       aerial = true,
       beacon = false,
       bufferline = true,
+      autosave = true,
       cmp = true,
       dashboard = true,
       highlighturl = true,

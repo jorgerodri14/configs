@@ -8,6 +8,11 @@ local astro_plugins = {
   -- Lua functions
   ["nvim-lua/plenary.nvim"] = { module = "plenary" },
 
+  --Autosave
+  ["pocco81/auto-save.nvim"] = {
+    config = function() require "configs.autosave" end,
+  },
+
   -- Indent detection
   ["Darazaki/indent-o-matic"] = {
     event = "BufEnter",
