@@ -7,6 +7,7 @@ maps[""]["<Space>"] = "<Nop>"
 -- Normal --
 -- Standard Operations
 maps.n["<leader>w"] = { "<cmd>w<cr>", desc = "Save" }
+maps.n["<leader>W"] = { "<cmd>wa<cr>", desc = "Save All" }
 maps.n["<leader>q"] = { "<cmd>q<cr>", desc = "Quit" }
 maps.n["<leader>h"] = { "<cmd>nohlsearch<cr>", desc = "No Highlight" }
 maps.n["<leader>fn"] = { "<cmd>enew<cr>", desc = "New File" }

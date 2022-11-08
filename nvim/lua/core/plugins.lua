@@ -9,9 +9,9 @@ local astro_plugins = {
   ["nvim-lua/plenary.nvim"] = { module = "plenary" },
 
   --Autosave
-  ["pocco81/auto-save.nvim"] = {
-    config = function() require "configs.autosave" end,
-  },
+  -- ["pocco81/auto-save.nvim"] = {
+  --   config = function() require "configs.autosave" end,
+  -- },
 
   -- Indent detection
   ["Darazaki/indent-o-matic"] = {
@@ -187,8 +187,9 @@ local astro_plugins = {
     after = "telescope.nvim",
     disable = vim.fn.executable "make" + vim.fn.executable "cmake" == 0,
     run = vim.fn.executable "cmake" == 1
-        and "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build"
-      or "make",
+        and
+        "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build"
+        or "make",
     config = function() require("telescope").load_extension "fzf" end,
   },
 
