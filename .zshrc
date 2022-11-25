@@ -106,9 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
-alias search="history | grep"
+alias hg="history | grep"
 export PATH=$PATH:/Users/jorgerodriguezsanchez/.npm-global/bin
-alias ide='bash ide'
+alias ide='bash .ide'
 alias tm="tmux"
 alias tma="tmux attach -t"
 alias tmd="tmux detach"
