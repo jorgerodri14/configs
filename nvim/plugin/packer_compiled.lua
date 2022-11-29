@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["bufdelete.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/bufdelete.nvim",
+    url = "https://github.com/famiu/bufdelete.nvim"
+  },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -109,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  everforest = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -118,6 +133,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["heirline.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/heirline.nvim",
+    url = "https://github.com/rebelot/heirline.nvim"
+  },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -149,6 +174,16 @@ _G.packer_plugins = {
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neo-tree.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -168,16 +203,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-transparent"] = {
-    loaded = true,
-    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/nvim-transparent",
-    url = "https://github.com/xiyaowong/nvim-transparent"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -215,11 +240,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,

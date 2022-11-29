@@ -1,9 +1,13 @@
+local impatient_ok, impatient = pcall(require, "impatient")
+if impatient_ok then
+	impatient.enable_profile()
+end
+
 require("jorge.plugins-setup")
 require("jorge.core.options")
 require("jorge.core.keymaps")
 require("jorge.core.colorscheme")
 require("jorge.plugins.comment")
-require("jorge.plugins.nvim-tree")
 require("jorge.plugins.lualine")
 require("jorge.plugins.telescope")
 require("jorge.plugins.nvim-cmp")
@@ -14,4 +18,5 @@ require("jorge.plugins.lsp.null-ls")
 require("jorge.plugins.autopairs")
 require("jorge.plugins.treesitter")
 require("jorge.plugins.gitsigns")
-require("jorge.plugins.transparent")
+require("jorge.plugins.neo-tree")
+require("jorge.plugins.bufferline")

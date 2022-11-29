@@ -29,7 +29,7 @@ return packer.startup(function(use)
 	-- lua functions that many plugins use
 	use("nvim-lua/plenary.nvim")
 	-- preferrend colorscheme
-	use("folke/tokyonight.nvim")
+	use("sainnhe/everforest")
 	-- tmux & split window navigation
 	use("christoomey/vim-tmux-navigator")
 
@@ -43,8 +43,16 @@ return packer.startup(function(use)
 	-- comenting with gc
 	use("numToStr/Comment.nvim")
 
-	-- file explorer
-	use("nvim-tree/nvim-tree.lua")
+	-- neo tree file explorer
+	use({
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v2.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+			"MunifTanjim/nui.nvim",
+		},
+	})
 
 	-- icons
 	use("nvim-tree/nvim-web-devicons")
@@ -97,9 +105,17 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
-	-- transparent
-	use("xiyaowong/nvim-transparent")
+	-- bufferline
+	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
 
+	-- buffer delete
+	use("famiu/bufdelete.nvim")
+
+	-- heirline
+	use("rebelot/heirline.nvim")
+
+	-- impatient
+	use("lewis6991/impatient.nvim")
 	if packer_bootstrap then
 		require("packer").sync()
 	end
