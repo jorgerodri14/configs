@@ -116,6 +116,12 @@ return packer.startup(function(use)
 
 	-- impatient
 	use("lewis6991/impatient.nvim")
+
+	-- lazy-git
+	use("kdheepak/lazygit.nvim")
+
+	-- aerial
+	use("stevearc/aerial.nvim")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["aerial.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/aerial.nvim",
+    url = "https://github.com/stevearc/aerial.nvim"
+  },
   ["bufdelete.nvim"] = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/bufdelete.nvim",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/jorgerodriguezsanchez/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,

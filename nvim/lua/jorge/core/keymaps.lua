@@ -31,8 +31,8 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- got to previous tab
 -- plugin keymaps
 
 -- neo-tree
-keymap.set("n", "<leader>e", ":NeoTreeShowToggle<CR>")
-keymap.set("n", "<leader>ef", ":NeoTreeFocus<CR>")
+keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
+keymap.set("n", "<leader>ef", ":Neotree focus<CR>")
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
@@ -50,3 +50,10 @@ keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>")
 -- delete buffer
 keymap.set("n", "<leader>c", ":Bdelete<CR>")
 keymap.set("n", "<leader>C", ":Bdelete!<CR>")
+
+-- lazy git
+keymap.set("n", "<leader>tl", ":LazyGit<CR>")
+keymap.set("n", "<leader>tlf", ":LazyGitFilter<CR>")
+
+-- aerial
+keymap.set("n", "<leader>at", ":AerialToggle<CR>")
